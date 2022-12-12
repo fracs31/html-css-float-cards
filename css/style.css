@@ -49,8 +49,9 @@
 }
 
 /* Ultime carte */
-div.card:last-child() {
+.card:last-child {
     margin-right: 0px;
+    background-color: red;
 }
 
 /* Contenitore dell'immagine profilo */
