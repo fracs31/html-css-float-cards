@@ -37,8 +37,8 @@
 .card {
     height: 100px;
     width: 350px;
-    background-color: black;
     float: left;
+    background-color: black;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
