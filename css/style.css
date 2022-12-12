@@ -45,6 +45,7 @@
 
 div.card:last-child(3n) {
     margin-right: 0px;
+    float: right;
 }
 
 /* Contenitore dell'immagine profilo */
