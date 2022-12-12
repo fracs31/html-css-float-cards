@@ -23,23 +23,28 @@
 
 /* Paragrafo del title */
 .title p {
-    padding: 20px 0px;
+    padding: 40px 0px;
 }
 
 /* Contenitore delle carte */
 .cards-container {
     width: 100%;
-    height: 500px;
     border: 1px solid black;
 }
 
 /* Carta */
 .card {
     height: 100px;
-    width: 350px;
+    width: calc(30%);
     float: left;
+    margin-right: 3%;
+    margin-bottom: 5%;
     background-color: black;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+div.card:last-child(3n) {
+    margin-right: 0px;
 }
 
 /* Contenitore dell'immagine profilo */
