@@ -32,6 +32,10 @@
     border: 1px solid black;
 }
 
+.cards-row {
+    border: 1px solid red;
+}
+
 /* Carta */
 .card {
     height: 100px;
@@ -45,7 +49,6 @@
 
 div.card:last-child(3n) {
     margin-right: 0px;
-    float: right;
 }
 
 /* Contenitore dell'immagine profilo */
@@ -95,7 +98,7 @@ div.card:last-child(3n) {
 }
 
 /* Classe per sistemare i float delle carte*/
-.cards-container::after {
+.cards-row::after {
     content: '';
     display: table;
     clear: both;
