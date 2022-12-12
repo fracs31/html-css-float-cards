@@ -1,0 +1,27 @@
+/* Regole generali */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Container */
+.container {
+    max-width: 900px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+/* H1 del title */
+.title h1 {
+    font-weight: 900;
+    font-size: 42px;
+    color: #e05780;
+    padding: 30px 0px;
+}
+
+/* Paragrafo del title */
+.title p {
+    padding: 20px 0px;
+}
