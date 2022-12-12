@@ -26,32 +26,36 @@
     padding: 20px 0px;
 }
 
-
+/* Contenitore delle carte */
 .cards-container {
     width: 100%;
     height: 500px;
     border: 1px solid black;
 }
 
+/* Carta */
 .card {
     height: 100px;
     width: 350px;
     background-color: black;
     float: left;
-    border: 1px solid red;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+/* Contenitore dell'immagine profilo */
 .profile-img {
     height: 100%;
     width: 30%;
     float: left;
 }
 
+/* Immagine usata come immagine profilo */
 .profile-img img {
     height: 100%;
     width: 100%;
 }
 
+/* Informazioni delle persone */
 .information {
     height: 100%;
     width: 70%;
@@ -60,26 +64,31 @@
     color: white;
 }
 
+/* Span per i dati delle persone */
 .information span {
     display: block;
     padding: 5px 5px;
 }
 
+/* Ancora email */
 .information a {
     text-decoration: none;
     color: #00b4d8;
 }
 
+/* Nome della persona */
 .name {
     font-weight: 900;
 }
 
+/* Classe per sistemare i float dei dati delle carte */
 .card::after {
     content: '';
     display: table;
     clear: both;
 }
 
+/* Classe per sistemare i float delle carte*/
 .cards-container::after {
     content: '';
     display: table;
