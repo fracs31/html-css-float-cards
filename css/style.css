@@ -29,20 +29,14 @@
 /* Contenitore delle carte */
 .cards-container {
     width: 100%;
-    border: 1px solid black;
-}
-
-/* Righe con le carte */
-.cards-row {
-    border: 1px solid red;
 }
 
 /* Carta */
 .card {
     height: 100px;
-    width: calc(30%);
+    width: 30%;
     float: left;
-    margin-right: 3%;
+    margin-right: 5%;
     margin-bottom: 5%;
     background-color: black;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -51,7 +45,6 @@
 /* Ultime carte */
 .card:last-child {
     margin-right: 0px;
-    background-color: red;
 }
 
 /* Contenitore dell'immagine profilo */
