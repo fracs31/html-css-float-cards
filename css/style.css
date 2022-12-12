@@ -41,13 +41,13 @@
     height: 100px;
     width: calc(30%);
     float: left;
-    margin-right: 3%;
+    margin-right: 5%;
     margin-bottom: 5%;
     background-color: black;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-div.card:last-child(3n) {
+div.card:last-child() {
     margin-right: 0px;
 }
 
